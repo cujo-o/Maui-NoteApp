@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NoteApp</name>
+    </assembly>
+    <members>
+        <member name="T:NoteApp.viewModel.DetailviewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:NoteApp.viewModel.DetailviewModel.Text">
+            <inheritdoc cref="F:NoteApp.viewModel.DetailviewModel._text"/>
+        </member>
+        <member name="F:NoteApp.viewModel.DetailviewModel.goBackCommand">
+            <summary>The backing field for <see cref="P:NoteApp.viewModel.DetailviewModel.GoBackCommand"/>.</summary>
+        </member>
+        <member name="P:NoteApp.viewModel.DetailviewModel.GoBackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:NoteApp.viewModel.DetailviewModel.GoBack"/>.</summary>
+        </member>
+        <member name="T:NoteApp.viewModel.MainViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:NoteApp.viewModel.MainViewModel.Items">
+            <inheritdoc cref="F:NoteApp.viewModel.MainViewModel.items"/>
+        </member>
+        <member name="P:NoteApp.viewModel.MainViewModel.Text">
+            <inheritdoc cref="F:NoteApp.viewModel.MainViewModel.text"/>
+        </member>
+        <member name="F:NoteApp.viewModel.MainViewModel.addCommand">
+            <summary>The backing field for <see cref="P:NoteApp.viewModel.MainViewModel.AddCommand"/>.</summary>
+        </member>
+        <member name="P:NoteApp.viewModel.MainViewModel.AddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:NoteApp.viewModel.MainViewModel.Add"/>.</summary>
+        </member>
+        <member name="F:NoteApp.viewModel.MainViewModel.deleteCommand">
+            <summary>The backing field for <see cref="P:NoteApp.viewModel.MainViewModel.DeleteCommand"/>.</summary>
+        </member>
+        <member name="P:NoteApp.viewModel.MainViewModel.DeleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:NoteApp.viewModel.MainViewModel.Delete(System.String)"/>.</summary>
+        </member>
+        <member name="F:NoteApp.viewModel.MainViewModel.tapCommand">
+            <summary>The backing field for <see cref="P:NoteApp.viewModel.MainViewModel.TapCommand"/>.</summary>
+        </member>
+        <member name="P:NoteApp.viewModel.MainViewModel.TapCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:NoteApp.viewModel.MainViewModel.Tap(System.String)"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Text">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Text" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Items">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Items" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Text">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Text" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Items">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Items" generated properties.</summary>
+        </member>
+    </members>
+</doc>
